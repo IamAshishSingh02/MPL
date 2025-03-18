@@ -8,7 +8,7 @@
 
 section .data
 	msg1 db "Write an x86/64 ALP to accept a string and to display its length",10,\
-	'Name- Ashish Kumar',10,'Roll No- 7215',10,'Date of Performance- 18-03-25',10
+	'Name- Ashish Kumar',10,'Roll No- 7215',10,'Date of Performance- 28-01-25',10
 	msg1len equ $-msg1
 
 	msg2 db "Enter the String: ", 0ah
