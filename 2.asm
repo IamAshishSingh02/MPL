@@ -5,15 +5,21 @@
 	mov rdx,%4
 	syscall
 %endmacro
+
 section .data
-	msg1 db "Write an x86/64 ALP to accept a string and to display its length : ",0ah
+	msg1 db "Write an x86/64 ALP to accept a string and to display its length",10,\
+	'Name- Ashish Kumar',10,'Roll No- 7215',10,'Date of Performance- 18-03-25',10
 	msg1len equ $-msg1
+
 	msg2 db "Enter the String: ", 0ah
 	msg2len equ $-msg2
+
 	msg3 db "Length of String: ",0ah
 	msg3len equ $-msg3
+
 	newline db 10
 	len db 0
+
 section .bss
 	str1 resb 20
  
